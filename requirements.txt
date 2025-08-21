@@ -1,0 +1,9 @@
+langchain
+langchain-community
+openai
+sentry-sdk
+strawberry-graphql
+sqlalchemy
+psycopg2-binary
+pymysql
+python-dotenv
