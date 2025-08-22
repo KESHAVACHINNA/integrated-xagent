@@ -1,3 +1,63 @@
+# XAgent Integration into L3AGI Framework
+
+## Project Overview
+This project integrates the XAgent framework into the L3AGI framework, replacing the existing Langchain REACT Agent.
+
+## Changes Made
+- Modified `dialogue_agent_with_tools.py` to use XAgent API calls instead of Langchain
+- Set up Docker infrastructure for XAgent, MySQL, and Redis
+- Created test scripts to verify the integration
+
+## Current Status
+- ✅ Technical integration complete
+- ✅ Docker containers running successfully
+- ⚠️ Authentication pending (awaiting XAgent account approval)
+- The 401 error in testing confirms server communication is working
+
+## How to Run
+1. Start Docker containers: `docker-compose up -d` in XAgent directory
+2. Run test: `python test_conv_init.py`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="">
     <img src="./apps/ui/src/assets/images/l3_logo.png" alt="L3AGI logo" width="150px" height="150px"/>
